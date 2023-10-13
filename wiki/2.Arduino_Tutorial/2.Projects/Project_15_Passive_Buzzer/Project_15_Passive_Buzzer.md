@@ -1,4 +1,5 @@
 # Project 15：Passive Buzzer
+
 ![Img](/media/img-20230215115415.png)
 
 ## 15.1. Introduction：                                                                   
@@ -18,14 +19,17 @@ In this project, we will introduce the passive buzzer to you. It is a device dri
 A passive buzzer is an integrated electronic buzzer without the internal vibration source and it must be driven by 200-5000HZ square waves, rather than DC signals.
  
 Passive buzzer boasts a green circuit board while active buzzer enjoys a black tape. Passive buzzers cannot distinguish between positive polarity while active buzzers can.
+
 ![Img](/media/img-20230215115438.png)
       
 ## 15.4. Wiring Diagram：
 
 **Schematic Diagram：**
+
 ![Img](/media/img-20230216170112.png)
 
 **Wiring Diagram：**
+
 ![Img](/media/img-20230215120055.png)
 
 ## 15.5. Test Code：                                                                    

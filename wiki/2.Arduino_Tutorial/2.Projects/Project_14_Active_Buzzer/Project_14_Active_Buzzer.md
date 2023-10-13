@@ -1,4 +1,5 @@
 # Project 14：Active Buzzer
+
 ![Img](/media/img-20230215105843.png)
 
 ## 14.1. Introduction：               
@@ -19,6 +20,7 @@ In this project, we will use a mainboard to control the active buzzer to beep.
 Active buzzer enjoys a simple oscillator circuit, which can convert constant direct current into a certain frequency pulse signal.  Once active buzzer receives a high level, it will produce sound. 
 
 Passive buzzer is an internal without vibration source integrated electronic buzzer, it must be driven by 2k to 5k square wave, rather than a DC signal.  The two buzzers are very similar in appearance, but one buzzer with a green circuit board is a passive buzzer, while the other buzzer with black tape is an active buzzer. Passive buzzers don't have positive polarity, but active buzzers do. As shown below:
+
 ![Img](/media/img-20230215105945.png)
 
 **Transistor:** Since the buzzer requires such large current that GPIO of the mainboard output capability cannot meet the requirement, thus a NPN transistor is needed to amplify the current. 
@@ -37,15 +39,19 @@ Transistor is often used as a switch in digital circuits. As micro-controller's 
 When using the NPN transistor to drive a buzzer, we often adopt the following method. If GPIO outputs high level, current will flow through R1, the transistor will get conducted, and the buzzer will sound. If GPIO outputs low level, no current flows through R1, the transistor will not be conducted, and buzzer will not sound. 
 
 When using the PNP transistor to drive a buzzer, we often adopt the following method. If GPIO outputs low level, current will flow through R1, the transistor will get conducted, and the buzzer will sound. If GPIO outputs high level, no current flows through R1, the transistor will not be conducted, and buzzer will not sound. 
+
 ![Img](/media/img-20230215112615.png)
 
 ## 14.4. Wiring Diagram： 
 
 **Schematic Diagram：**
+
 ![Img](/media/img-20230216165448.png)
 
 **Wiring Diagram：**
+
 ![Img](/media/img-20230215114101.png)
+
 <span style="color: rgb(255, 76, 65);">Note:</span> When connecting the circuit, pay attention to the positive and negative poles of the active buzzer.
 
 

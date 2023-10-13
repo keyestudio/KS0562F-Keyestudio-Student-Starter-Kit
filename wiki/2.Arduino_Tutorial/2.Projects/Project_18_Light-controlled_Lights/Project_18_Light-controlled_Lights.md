@@ -1,4 +1,5 @@
 # Project 18：Light-controlled Lights
+
 ![Img](/media/img-20230215144944.png)
 
 ## 18.1. Introduction：                                                                 
@@ -20,9 +21,11 @@ In this project, we will use a mainboard to control the LED to achieve the effec
 **Photoresistor：** Its principle is that the brightness (light) received on the surface of the photoresistor decreases the resistance, and the resistance value changes with the intensity of the detected ambient light. With this feature, we can use a photoresistor to detect light intensity. 
 
 The photoresistor and its electronic symbol are as follows:
+
 ![Img](/media/img-20230215145119.png)
 
 The following circuit is used to detect the change of the resistance value:
+
 ![Img](/media/img-20230215145337.png)
 
 In the above circuit, when the resistance changes with the light intensity, the voltage between the photoresistor and R2 resistor will also change. Therefore, by measuring this voltage, the intensity of light can be obtained.
@@ -30,9 +33,11 @@ In the above circuit, when the resistance changes with the light intensity, the 
 ## 18.4. Wiring Diagram 1：
 
 **Schematic Diagram：**
+
 ![Img](/media/img-20230216173141.png)
 
 **Wiring Diagram：**
+
 ![Img](/media/img-20230215150720.png)
 
 ## 18.5. Test Code 1：                                                                    
@@ -61,14 +66,17 @@ delay(200);// Delay 0.2s
 After uploading the code successfully, wire according to the wiring diagram and power on, tap ![Img](/media/img-20230215142037.png) and set the baud rate to 9600, then the light intensity around the photoresistor can be changed.
 
 When the light intensity of the photoresistor gradually weakens, the analog value displayed by the serial monitor increases; otherwise, the analog value decreases gradually.
+
 ![Img](/media/img-20230215152825.png)
 
 ## 18.7. Wiring Diagram 2：
 
 **Schematic Diagram：**
+
 ![Img](/media/img-20230216172943.png)
 
 **Wiring Diagram：**
+
 ![Img](/media/img-20230215150938.png)
 
 ## 18.8. Test Code 2：                                                                    

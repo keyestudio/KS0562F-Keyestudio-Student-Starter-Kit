@@ -24,15 +24,19 @@ The following figure shows the pinout of the 4-digit tube display. G1, G2, G3 an
 ![Img](/media/img-20230214162256.png)
 
 Schematic Diagram：
+
 ![Img](/media/img-20230214162305.png)
+
 ![Img](/media/img-20230214162312.png)
 
 ## 8.4. Wiring Diagram：                                                                                                                                      
 
 **Schematic Diagram：**
+
 ![Img](/media/img-20230216150159.png)
 
 **Wiring Diagram：**
+
 ![Img](/media/img-20230215092535.png)
 
 ## 8.5. Test Code：                                                                  

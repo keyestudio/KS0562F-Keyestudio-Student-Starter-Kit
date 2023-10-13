@@ -1,4 +1,5 @@
 # Project 04：Traffic Lights
+
 ![Img](/media/img-20230214083336.png)
 
 ## 4.1. Introduction：                                                                   
@@ -17,9 +18,11 @@ In this project, we will look to use three LEDs in different colors to simulate 
 ## 4.3. Wiring Diagram：                                                                     
 
 **Schematic Diagram：**
+
 ![Img](/media/img-20230216141422.png)
 
 **Wiring Diagram：**
+
 ![Img](/media/img-20230214090416.png)
 
 ## 4.4. Test Code：                                                                   

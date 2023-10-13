@@ -1,4 +1,5 @@
 # Project 07：1-Digit Tube Display
+
 ![Img](/media/img-20230214152403.png)
 
 ## 7.1. Introduction：                                                                 
@@ -22,15 +23,18 @@ In the common cathode 7-segment display, all the cathodes (or negative pole) of 
 In the common anode 7-segment display, the LED anodes (positive pole) of all segments are connected together, so you should connect the common anode to“+5V”. If you are about to light up a segmented LED, you can set its associated pin to“LOW”.
 
 ![Img](/media/img-20230214152434.png)
+
 Each part of the digital tube is composed of a LED. Thus when you use it, you also need to use a current limiting resistor. Otherwise, the LED will be damaged. In this experiment, we will use an ordinary common cathode one-digit digital tube. As we mentioned above, you should connect the common cathode to GND. If you are about to light up a segmented LED, you can set its associated pin to“HIGH”.
 
 
 ## 7.4. Wiring Diagram：                                                                                                                                   
 
 **Schematic Diagram：**
+
 ![Img](/media/img-20230216150857.png)
 
 **Wiring Diagram：**
+
 ![Img](/media/img-20230314105129.png)
 
 ## 7.5. Test Code：                                                                  

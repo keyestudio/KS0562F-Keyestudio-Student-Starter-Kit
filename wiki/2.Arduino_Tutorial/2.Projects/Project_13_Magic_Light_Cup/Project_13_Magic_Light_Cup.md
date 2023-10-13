@@ -1,4 +1,5 @@
 # Project 13：Magic Light Cup
+
 ![Img](/media/img-20230216090106.png)
 
 ## 13.1. Introduction：                                                                 
@@ -11,7 +12,8 @@ When one end of the tilt switch is lower than the horizontal position, the switc
 
 In the program, we determine the switch state according to whether the voltage value of the analog port is higher than 2.5V (binary 512).
 
-Internal Structure of the Tilt Switch:：
+Internal Structure of the Tilt Switch:
+
 ![Img](/media/img-20230216085840.png)
 
 ## 13.3. Components Needed：                                                                  
@@ -27,9 +29,11 @@ Internal Structure of the Tilt Switch:：
 ## 13.4. Wiring Diagram： 
 
 **Schematic Diagram：**
+
 ![Img](/media/img-20230216103758.png)
 
 **Wiring Diagram：**
+
 ![Img](/media/img-20230216104612.png)
 
 ## 13.5. Test Code：                                                                  

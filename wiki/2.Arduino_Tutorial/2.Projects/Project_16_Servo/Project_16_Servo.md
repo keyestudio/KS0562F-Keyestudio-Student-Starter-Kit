@@ -1,4 +1,5 @@
 # Project 16：Servo
+
 ![Img](/media/img-20230215134507.png)
 
 ## 16.1. Introduction：                                                                 
@@ -16,17 +17,21 @@ Servo is a position control rotary actuator. It mainly consists of a housing, 
 The IC on the circuit board judges the direction of rotation and drives the core-less motor to start to rotate, then the reduction gear transfers power to the swing arm, at the same time, the position detector sends back signals to judge the location. It is suitable for those control systems that require constant change of angle and can be maintained. When the motor speed is fixed, the potentiometer will driven by the reduction gear to rotate, so that the voltage difference is 0 and the motor stops rotating. The general rotation angle range of the servo is 0˚~180˚.
 
 For the servo used in this project, the brown wire is GND, the red one is the power positive pole, and the orange one is the signal wire.
+
 ![Img](/media/img-20230215131901.png)
 
 Pulse period of controlling the servo is 20ms(50Hz). The pulse width is 1ms ~ 2ms, and the corresponding position is 0°~ 90°. 
+
 ![Img](/media/img-20230215131924.png)
 
 ## 16.4. Wiring Diagram： 
 
 **Schematic Diagram：**
+
 ![Img](/media/img-20230216170610.png)
 
 **Wiring Diagram：**
+
 ![Img](/media/img-20230215132357.png)
 
 ## 16.5. Test Code：                                                                  

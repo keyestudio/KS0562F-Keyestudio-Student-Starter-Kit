@@ -20,9 +20,11 @@ In this project, we look to leverage three PWM ports in a way that controls the 
 ## 11.4. Wiring Diagram：                                                                    
 
 **Schematic Diagram：**
+
 ![Img](/media/img-20230217105020.png)
 
 **Wiring Diagram：**
+
 ![Img](/media/img-20230217112739.png)
 
 ## 11.5. Test Code：

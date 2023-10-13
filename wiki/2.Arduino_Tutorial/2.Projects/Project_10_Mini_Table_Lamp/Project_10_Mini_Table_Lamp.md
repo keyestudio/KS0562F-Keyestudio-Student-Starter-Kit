@@ -1,4 +1,5 @@
 # Project 10：Mini Table Lamp
+
 ![Img](/media/img-20230214114203.png)
 
 ## 10.1. Introduction：                                                                   
@@ -18,7 +19,8 @@ Next, we'll use a button and a LED for input and output to give you a better und
 - Multimeter×1
 - 100NF-104-Ceramic Capacitor×1
 
-## 10.3. Component Knowledge：                                                                                                                                
+## 10.3. Component Knowledge：
+                                                                                                                            
 ![Img](/media/img-20230214114544.png)
 
 **Button：** A button can be used to control the circuit on and off, when it is plugged into a circuit and not pressed, the circuit will be disconnected. The circuit works when you press the button, but breaks again when you release it. 
@@ -31,7 +33,9 @@ The button switch is one of the most commonly used components in circuit design.
 
 
 **Schematic Diagram of the Button:**
+
 ![Img](/media/img-20230214120033.png)
+
 ![Img](/media/img-20230214120038.png)
 
 **What is Button Jitter？**
@@ -55,22 +59,27 @@ Hardware method: Key jitter can be eliminated using 100NF-104-ceramic capacitors
 **Electrolytic Capacitor：** It is a positive and negative electrode, the ordinary capacitor is not polar, but the electrolytic capacitor is positive and negative points, the access circuit will be damaged, must not be reversed.
 
 An electrolytic capacitor with two pins is taken as an example：
+
 ![Img](/media/img-20230323153837.png)
 
 The method of identifying the positive and negative electrode of the electrolytic capacitor is as follows：
 
 ①The negative extremes are identified by looking at the "-" symbol marked outside or by a ribbon.
+
 ![Img](/media/img-20230323155447.png)
 
 ②The length of the two pins is different to judge, the long pin is positive pole, short pin is negative pole.
+
 ![Img](/media/img-20230323154409.png)
 
 ## 10.4. Wiring Diagram 1：                                                                    
 
 **Schematic Diagram：**
+
 ![Img](/media/img-20230323145559.png)
 
 **Wiring Diagram：**
+
 ![Img](/media/img-20230323145628.jpg)
 
 ## 10.5. Test Code：                                                                    
@@ -121,7 +130,11 @@ void loop() {
 After uploading the code successfully, wrie according to the wiring diagram and power up, then press the button, LED turns on，press it again, it turns off. Doesn't it look like a mini table lamp?
 
 ## 10.7. Wiring Diagram and Test Result 2：
+
 ![Img](/media/img-20230322110907.png)
+
 Press the button, the voltage at both ends of the resistor measured by the multimeter is 4.92V (about 5V). At this time, the voltage of IO port D7 is about 0V, which is in the low level state.
+
 ![Img](/media/img-20230322111743.png)
+
 Relese it, the voltage is 0V, and the voltage of IO port D7 is about 5V, which is in the high level state.

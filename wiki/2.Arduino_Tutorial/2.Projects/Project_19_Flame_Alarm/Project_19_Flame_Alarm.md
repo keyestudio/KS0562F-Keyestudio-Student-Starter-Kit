@@ -1,4 +1,5 @@
 # Project 19：Flame Alarm
+
 ![Img](/media/img-20230215155136.png)
 
 ## 19.1. Introduction：                                                                 
@@ -23,15 +24,19 @@ Flame sensor boasts a specially designed infrared receiver tube to detect the fl
 The short pin of the receiving triode is negative pole and the other long pin is positive pole. We should connect the short pin (negative) to 5V and the long pin (positive) to the analog pin, the resistor and GND. 
 
 As shown in the figure below：
+
 ![Img](/media/img-20230215155347.png)
+
 <span style="color: rgb(255, 76, 65);">Note: Since vulnerable to radio frequency radiation and temperature changes, the flame sensor should be kept away from heat sources like radiators, heaters and air conditioners, as well as direct irradiation of sunlight, headlights and incandescent light.</span>
 
 ## 19.4. Wiring Diagram 1：
 
 **Schematic Diagram：**
+
 ![Img](/media/img-20230216175515.png)
 
 **Wiring Diagram：**
+
 ![Img](/media/img-20230215162237.png)
 
 ## 19.5. Test Code 1：                                                                    
@@ -60,14 +65,17 @@ delay(200);// Wait for 0.2s
 After uploading the code successfully, wire according to the wiring diagram and power on, then tap ![Img](/media/img-20230215142037.png) and set the baud rate to 9600.
 
 The serial monitor will print out the analog value read by the flame sensor. When the sensor is closed to fire, the analog value increases, otherwise it will decrease.
+
 ![Img](/media/img-20230215152825.png)
 
 ## 19.7. Wiring Diagram 2：
 
 **Schematic Diagram：**
+
 ![Img](/media/img-20230216175716.png)
 
 **Wiring Diagram：**
+
 ![Img](/media/img-20230215164420.png)
 
 ## 19.8. Test Code 2：                                                                    

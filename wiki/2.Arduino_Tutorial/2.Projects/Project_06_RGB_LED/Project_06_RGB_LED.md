@@ -1,4 +1,5 @@
 # Project 06：RGB LED
+
 ![Img](/media/img-20230214103810.png)
 
 ## 6.1. Introduction：                                                                   
@@ -24,9 +25,11 @@ We use the PWM to change the LED brightness.
 ## 6.4. Wiring Diagram：                                                                                                                                        
 
 **Schematic Diagram：**
+
 ![Img](/media/img-20230216142154.png)
 
 **Wiring Diagram：**
+
 ![Img](/media/img-20230214111232.png)
 
 ## 6.5. Test Code：                                                                   

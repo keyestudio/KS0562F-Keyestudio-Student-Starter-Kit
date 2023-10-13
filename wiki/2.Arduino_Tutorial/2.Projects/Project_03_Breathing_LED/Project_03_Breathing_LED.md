@@ -1,10 +1,12 @@
 # Project 03：Breathing LED
+
 ![Img](/media/img-20230213173746.png)
 
 ## 3.1.Introduction：
 A “breathing LED” is a phenomenon where an LED's brightness smoothly changes from dark to bright and back to dark, continuing to do so and giving the illusion of an LED“breathing. However, how to control LED’s brightness? We need to take advantage of PWM of the 328 PLUS board.
 
-## 3.2. Working Principle：                                                                  
+## 3.2. Working Principle： 
+                                                                 
 ![Img](/media/img-20230213173933.png)
 
 PWM(Pulse Width Modulation) is a technology used to control LED brightness, DC motor and servo speed. 
@@ -12,9 +14,11 @@ PWM(Pulse Width Modulation) is a technology used to control LED brightness, DC m
 Arduino digital pins generate 5V (high) or 0V (low). However, the PWM outputs a square wave signal. Thus if we want to dim the LED, we can't get a voltage between 0 and 5V from a digital pin, but we can change the ON and OFF time of the signal to change the brightness of the led. 
 
 Output voltage = (on time/pulse time) * maximum voltage value.
+
 ![Img](/media/img-20230213173952.png)
 
 PWM can be used to control brightness of lights, control speed of motors and make sound. The following are the three basic parameters of PMW.
+
 ![Img](/media/img-20230222152003.jpg)
 
 1. Duty cycle：The percentage of time when the signal is at a high level for a certain period of time
@@ -35,9 +39,11 @@ PWM can be used to control brightness of lights, control speed of motors and mak
 Here we use the digital pin 10. We need to connect the LED to a 220 Ω resistor to avoid damage to the LED due to high current.
 
 **Schematic Diagram：**
+
 ![Img](/media/img-20230216140946.png)
 
 **Wiring Diagram：**
+
 ![Img](/media/img-20230214112139.png)
 
 
@@ -76,9 +82,13 @@ It shows the effect of the breathing led when IO port is connected to LED, and t
 
 ## 3.7. Wiring Diagram and Test Result 2：
 When the breathing LED is working, we can use a multimeter to measure its voltage at both ends.
+
 ![Img](/media/img-20230322114556.png)
+
 When the breathing LED is brightest, the voltage measured by the multimeter at both ends of the LED is 2.41V.
+
 ![Img](/media/img-20230322114608.png)
+
 When it is darkest, the voltage at both ends of the LED is 0.45V.
 
 <span style="color: rgb(255, 76, 65);">Note:</span> When the breathing LED becomes brighter, the voltage at both ends will increase, conversely, it will decrease.

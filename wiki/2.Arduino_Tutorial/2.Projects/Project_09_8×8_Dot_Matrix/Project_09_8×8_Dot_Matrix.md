@@ -1,4 +1,5 @@
 # Project 09：8×8 Dot Matrix
+
 ![Img](/media/img-20230215093450.png)
 
 ## 09.1. Introduction：                                                                 
@@ -16,7 +17,9 @@ In this project, we will do an experiment via the 8x8 LED dot matrix.
 
 ## 09.3. Component Knowledge：                                                                 
 The exterior view of the 8 x 8 dot matrix is shown below：
+
 ![Img](/media/img-20230215093545.png)
+
 ![Img](/media/img-20230215093550.png)
 
 The 8×8 dot matrix is composed of 64 LEDs, and each LED is placed at the intersection of a row and a column. When the level of a row is 1 and a column is 0, the corresponding LED will light up.
@@ -24,14 +27,17 @@ The 8×8 dot matrix is composed of 64 LEDs, and each LED is placed at the inters
 If you want to light up the LED on the first point, you should set pin 9 to high and pin 13 to low. If you want to light up the first row of leds, then set pins 9 to high and pins 13, 3, 4, 10, 6, 11, 15 and 16 to low. If you want to light up the led in the first column, set pins 13 to low and pins 9, 14, 8, 12, 1, 7, 2 and 5 to high.
 
 ![Img](/media/img-20230215093606.png)
+
 ![Img](/media/img-20230215093817.png)
 
 ## 09.4. Wiring Diagram：                                                                                                                                  
 
 **Schematic Diagram：**
+
 ![Img](/media/img-20230216151757.png)
 
 **Wiring Diagram：**
+
 ![Img](/media/img-20230215105147.png)
 
 ## 09.5. Test Code：

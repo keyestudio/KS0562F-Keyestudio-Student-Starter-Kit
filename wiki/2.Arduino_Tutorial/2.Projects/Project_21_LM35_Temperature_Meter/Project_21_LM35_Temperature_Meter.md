@@ -1,4 +1,5 @@
 # Project 21：LM35 Temperature Meter
+
 ![Img](/media/img-20230216112542.png)
 
 ## 12.1. Introduction：                                                                 
@@ -8,11 +9,13 @@ In this project, we will use a LM35 temperature sensor and three LEDs to make a 
 
 ## 12.2. Working Principle：                                                                  
 The LM35 is a widely used temperature sensor that comes in many different package types. At room temperature, an accuracy of ±1/4°C is achieved without additional calibration processing.
+
 ![Img](/media/img-20230216112552.png)
    
 The LM35 temperature sensor can generate different voltages according to different temperatures. When the temperature is 0°C, it outputs 0V; for every increase of 1°C, the output voltage increases by 10 mv. 
 
 The output temperature is 0°C~100°C, the conversion formula is as follows:
+
 ![Img](/media/img-20230216112604.png)
 
 ## 12.3. Components Needed：                                                                  
@@ -27,9 +30,11 @@ The output temperature is 0°C~100°C, the conversion formula is as follows:
 ## 12.4. Wiring Diagram 1：
 
 **Schematic Diagram：**
+
 ![Img](/media/img-20230217083526.png)
 
 **Wiring Diagram：**
+
 ![Img](/media/img-20230216121051.png)
 
 ## 12.5. Test Code 1：                                                                    
@@ -70,9 +75,11 @@ The serial monitor will print the current temperature value detected by the LM35
 ## 12.7. Wiring Diagram 2：
 
 **Schematic Diagram：**
+
 ![Img](/media/img-20230217083357.png)
 
 **Wiring Diagram：**
+
 ![Img](/media/img-20230216134043.png)
 
 ## 12.8. Test Code 2：                                                                    

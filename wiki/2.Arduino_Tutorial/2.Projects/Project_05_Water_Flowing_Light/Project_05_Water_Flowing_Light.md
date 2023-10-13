@@ -13,11 +13,14 @@ In this project, we will use a control board to control 5 leds to achieve the ef
 - Jumper Wires
 - USB Cable×1
 
-## 5.3. Wiring Diagram：                                                                     
+## 5.3. Wiring Diagram：
+
 **Schematic Diagram：**
+
 ![Img](/media/img-20230217132639.png)
 
 **Wiring Diagram：**
+
 ![Img](/media/img-20230217133543.png)
 
 ## 5.5. Test Code：
