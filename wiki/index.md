@@ -108,8 +108,8 @@ Meanwhile, it provides the knowledge and application of multimeters in a way tha
 
 ## 3.Tutorial
 
-[1.Mainboard_Introduction](1.Mainboard_Introduction/1.Mainboard_Introduction.md)
-[2.Arduino_Tutorial](2.Arduino_Tutorial/2.Arduino_Tutorial.md)
-[3.Common_Problems](3.Common_Problems/3.Common_Problems.md)
+* [1.Mainboard_Introduction](1.Mainboard_Introduction/1.Mainboard_Introduction.md)
+* [2.Arduino_Tutorial](2.Arduino_Tutorial/2.Arduino_Tutorial.md)
+* [3.Common_Problems](3.Common_Problems/3.Common_Problems.md)
 
 ------
