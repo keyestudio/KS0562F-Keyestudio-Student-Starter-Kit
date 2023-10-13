@@ -41,7 +41,7 @@ If you are interested in our products, please contact to our sales representativ
 
 ------
 
-# Keyestudio Student Starter Learning Kit with Mainboard
+# home
 ![Img](/media/img-20230224084642.png)
 
 ------
