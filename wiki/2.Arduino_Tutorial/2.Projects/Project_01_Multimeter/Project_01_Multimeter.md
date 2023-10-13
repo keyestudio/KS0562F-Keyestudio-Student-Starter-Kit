@@ -60,6 +60,7 @@ Measure the DC voltage at V-
 Measure the AC voltage at V~
 
 If the red and black test leads are reversed, the reading on the multimeter will show a negative number. 
+
 When measuring voltage with a multimeter, if the tip of the red test lead touches the "+" pole of the battery and the tip of the black one touches the "-" pole, the multimeter will display a voltage of about 9V, otherwise, it displays a voltage of about -9V.
 
 ![Img](/media/img-20230224120346.png)
@@ -72,7 +73,7 @@ First, confirm that the circuit can be powered on normally. If the voltage of th
 
 ![Img](/media/img-20230224120426.png)
 
-<span style="color: rgb(255, 76, 65);">Note：The tips of the two test leads need to touch the jumper wires, the resistor or the metal part of the LED (the same below), otherwise, the multimeter will not have a reading.
+<span style="color: rgb(255, 76, 65);">Note：The tips of the two test leads need to touch the jumper wires, the resistor or the metal part of the LED (the same below), otherwise, the multimeter will not have a reading.</span>
 
 Set the range switch to 20V DC voltage. The multimeter usually can not change the range automatically, so it needs to be manually set to the detectable range.
 
