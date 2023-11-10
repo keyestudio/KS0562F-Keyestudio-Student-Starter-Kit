@@ -1,6 +1,6 @@
 
 .. toctree::
-   :maxdepth: 5
+   :maxdepth: 3
    :caption: Keyestudio Student Starter Learning Kit with Mainboard
 
    wiki/index.md
